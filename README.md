@@ -1,5 +1,5 @@
 # Automation for UR at Scale
-Code presented during my talk @ Spotify (February 2020). I have included the survey and scripts used in the example so that anyone interested could try it themselves. The scripts interact with the Qualtrics API to:
+Code presented during my talk for the Product Insights team at Spotify (February 2020). I have included the survey and scripts used in the example so that anyone interested could try it themselves. The scripts interact with the Qualtrics API to:
     - Make embedding user data into a Qualtrics survey efficient and reproducible
     - Create clean, and interpretable, data exports.
 
