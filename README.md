@@ -10,7 +10,9 @@ Code presented during my talk @ Spotify (February 2020). I have included the sur
 
 2. Open `embed_user_data_into_survey.ipynb` in Jupyter Notebooks. Before running through any code you'll need to:
     - Enter your Qualtrics IDs.
-    - Ensure that you have access to the Qualtrics API; otherwise you'll get response code 403 when you try to embed the variable headers and it will not work. I had to contact my IT administrator in order to receive access.
+    - Ensure that you have access to the Qualtrics API.
+        - If you do not, you'll see `<Response 403>` when you try to embed the variable headers and it will not work. 
+        - I had to contact my IT administrator in order to receive access.
   
 3. Create some fake data! Go to the data folder and open `survey_distribution_list.xlsx`. Click on a few of the links and fill out the survey to generate data.
 
