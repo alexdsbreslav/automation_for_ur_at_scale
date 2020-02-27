@@ -2,7 +2,7 @@
 Code presented during my talk @ Spotify (February 2020). Scripts and example to embed user data into a Qualtrics survey and create clean, interpretable, data exports.
 
 To try the example:
-1. Import `survey.qsf` into Qualtrics [click here to learn how to import a survey](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ImportingASurvey]
+1. Import `survey.qsf` into Qualtrics [click here to learn how to import a survey](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ImportingASurvey).
 
 2. Open `embed_user_data_into_survey.ipynb` in Jupyter Notebooks. Before running through any code you'll need to:
   - Enter your Qualtrics IDs [click here to learn how to find your Qualtrics IDs](https://www.qualtrics.com/support/integrations/api-integration/finding-qualtrics-ids/#LocatingQualtricsIDs)
