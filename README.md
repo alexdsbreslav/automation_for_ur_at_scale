@@ -17,8 +17,8 @@ Code presented during my talk @ Spotify (February 2020). I have included the sur
 4. Open `export_survey_data.ipynb` in Jupyter Notebooks. Before running through the code, make sure to enter your Qualtrics IDs.
 
 ## Helpful links from Quatlrics:
-    - [How to import a survey from a QSF file:](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ImportingASurvey)
-    - [How to publish your survey:](https://www.qualtrics.com/support/survey-platform/survey-module/survey-publishing-versions/#PublishingNew)
-    - [How to edit the question labels in Qualtrics:](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/formatting-questions/#EditingQuestionLabels)
-    - [How to edit the response choice labels in Qualtrics](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/recode-values/#RecodingValuesAndChangingVariableLabels)
-    - [How to find your Qualtrics IDs](https://www.qualtrics.com/support/integrations/api-integration/finding-qualtrics-ids/#LocatingQualtricsIDs)
+- [How to import a survey from a QSF file:](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ImportingASurvey)
+- [How to publish your survey:](https://www.qualtrics.com/support/survey-platform/survey-module/survey-publishing-versions/#PublishingNew)
+- [How to edit the question labels in Qualtrics:](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/formatting-questions/#EditingQuestionLabels)
+- [How to edit the response choice labels in Qualtrics](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/recode-values/#RecodingValuesAndChangingVariableLabels)
+- [How to find your Qualtrics IDs](https://www.qualtrics.com/support/integrations/api-integration/finding-qualtrics-ids/#LocatingQualtricsIDs)
