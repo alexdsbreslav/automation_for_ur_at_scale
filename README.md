@@ -16,7 +16,7 @@ Code presented during my talk for the Product Insights team at Spotify (February
 
 4. Open `export_survey_data.ipynb` in Jupyter Notebooks. Before running through the code, make sure to enter your Qualtrics IDs.
 
-## Helpful links from Quatlrics:
+## Helpful links from Qualtrics:
 - [How to import a survey from a QSF file.](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ImportingASurvey)
 - [How to publish your survey.](https://www.qualtrics.com/support/survey-platform/survey-module/survey-publishing-versions/#PublishingNew)
 - [How to edit the question labels in Qualtrics.](https://www.qualtrics.com/support/survey-platform/survey-module/editing-questions/formatting-questions/#EditingQuestionLabels)
