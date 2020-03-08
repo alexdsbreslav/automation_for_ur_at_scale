@@ -1,13 +1,13 @@
 # Automation for UR at Scale
-Code presented during my talk for the Product Insights team at Spotify (February 2020). I have included the survey and scripts used in the example so that anyone interested could try it themselves. The scripts interact with the Qualtrics API to: one, automatically embed user data into a Qualtrics survey, and two, automatically create clean and interpretable data exports.
+This is code that I presented during my talk for the Product Insights team at Spotify (February 2020). I have included the survey and scripts used in the example so that anyone interested could try it themselves. The scripts interact with the Qualtrics API to: one, automatically embed user data into a Qualtrics survey, and two, automatically create clean and interpretable data exports.
 
 ## To try the example:
 1. Download `survey.qsf` and import it into Qualtrics
-    - Once imported, make sure you hit the publish button
+    - Once imported, make sure you hit the publish button.
     - Notice that all of the questions and response choices are labeled - this helps make the data exports much easier to read!
 
 2. Open the Github repo. You can do this in two ways:
-    - If you have Jupyter Notebooks on your computer: clone the repo and navigate to the scripts folder in Jupyter
+    - If you have Jupyter Notebooks on your computer: clone the repo and navigate to the scripts folder in Jupyter.
     - If you do not have Jupyter Notebooks: click here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdsbreslav/automation_for_ur_at_scale/master) to launch the code using a website called Binder. Binder will take a few minutes to load, but once it loads, you'll have everything you need to run the scripts!
 
 3. Navigate to the scripts folder and open `embed_user_data_into_survey.ipynb`. Once you have the code open:
