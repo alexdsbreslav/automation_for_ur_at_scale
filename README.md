@@ -6,7 +6,9 @@ Code presented during my talk for the Product Insights team at Spotify (February
     - Once imported, make sure you hit the publish button.
     - Notice that all of the questions and response choices are labeled - this helps make the data exports much easier to read!
 
-2. Open `embed_user_data_into_survey.ipynb` in Jupyter Notebooks. Before running through any code you'll need to:
+2. Open `embed_user_data_into_survey.ipynb` in Jupyter Notebooks. If you do not have Jupyter Notebooks installed on your computer, no worries! Open up the up the script from [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdsbreslav/automation_for_ur_at_scale/master?filepath=scripts).  
+
+Before running through any code you'll need to:
     - Enter your Qualtrics IDs.
     - Ensure that you have access to the Qualtrics API.
         - If you do not, you'll see `<Response 403>` when you try to embed the variable headers and it will not work. 
