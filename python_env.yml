@@ -1,5 +1,5 @@
-name: test_env
+name: python_env
 channels:
   - conda-forge
 dependencies:
-  - pandas=0.25.1=py37h0a44026_0
+  - pandas
