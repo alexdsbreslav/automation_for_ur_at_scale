@@ -2,21 +2,25 @@
 Code presented during my talk for the Product Insights team at Spotify (February 2020). I have included the survey and scripts used in the example so that anyone interested could try it themselves. The scripts interact with the Qualtrics API to: one, automatically embed user data into a Qualtrics survey, and two, automatically create clean and interpretable data exports.
 
 ## To try the example:
-1. Import `survey.qsf` into Qualtrics .
-    - Once imported, make sure you hit the publish button.
+1. Download `survey.qsf` and import it into Qualtrics
+    - Once imported, make sure you hit the publish button
     - Notice that all of the questions and response choices are labeled - this helps make the data exports much easier to read!
 
-2. Open `embed_user_data_into_survey.ipynb` in Jupyter Notebooks. If you do not have Jupyter Notebooks installed on your computer, no worries! Open up the up the script from [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdsbreslav/automation_for_ur_at_scale/master?filepath=scripts).  
+2. Open the Github repo. You can do this in two ways:
+    - If you have Jupyter Notebooks on your computer: clone the repo and navigate to the scripts folder in Jupyter
+    - If you do not have Jupyter Notebooks: click here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdsbreslav/automation_for_ur_at_scale/master) to open the code in your web browser. It will take a few minutes to load, but everything you need to run the scripts will be done for you!
 
-Before running through any code you'll need to:
+3. Navigate to the scripts folder and open `embed_user_data_into_survey.ipynb`. Once you have the code open:
     - Enter your Qualtrics IDs.
     - Ensure that you have access to the Qualtrics API.
         - If you do not, you'll see `<Response 403>` when you try to embed the variable headers and it will not work. 
         - I had to contact my IT administrator in order to receive access.
   
-3. Create some fake data! Go to the data folder and open `survey_distribution_list.xlsx`. Click on a few of the links and fill out the survey to generate data.
+4. Once you have created your embedded data fields using the code above, create some fake data!
+    - Go to the data folder and open `survey_distribution_list.xlsx`
+    - Click on a few of the links and fill out the survey to generate your fake data.
 
-4. Open `export_survey_data.ipynb` in Jupyter Notebooks. Before running through the code, make sure to enter your Qualtrics IDs.
+5. Navigate back to the scripts folder and open `export_survey_data.ipynb`. Before running through the code, make sure to enter your Qualtrics IDs.
 
 ## Helpful links from Qualtrics:
 - [How to import a survey from a QSF file.](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ImportingASurvey)
