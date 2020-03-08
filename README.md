@@ -8,7 +8,7 @@ Code presented during my talk for the Product Insights team at Spotify (February
 
 2. Open the Github repo. You can do this in two ways:
     - If you have Jupyter Notebooks on your computer: clone the repo and navigate to the scripts folder in Jupyter
-    - If you do not have Jupyter Notebooks: click here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdsbreslav/automation_for_ur_at_scale/master) to open the code in your web browser. It will take a few minutes to load, but everything you need to run the scripts will be done for you!
+    - If you do not have Jupyter Notebooks: click here &rarr; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alexdsbreslav/automation_for_ur_at_scale/master) to launch the code using a website called Binder. Binder will take a few minutes to load, but once it loads, you'll have everything you need to run the scripts!
 
 3. Navigate to the scripts folder and open `embed_user_data_into_survey.ipynb`. Once you have the code open:
     - Enter your Qualtrics IDs.
@@ -17,7 +17,7 @@ Code presented during my talk for the Product Insights team at Spotify (February
         - I had to contact my IT administrator in order to receive access.
   
 4. Once you have created your embedded data fields using the code above, create some fake data!
-    - Go to the data folder and open `survey_distribution_list.xlsx`
+    - Go to the data folder and open `survey_distribution_list.xlsx`. If you opened the code using Binder, download `survey_distribution_list.xlsx` and open it on your computer.
     - Click on a few of the links and fill out the survey to generate your fake data.
 
 5. Navigate back to the scripts folder and open `export_survey_data.ipynb`. Before running through the code, make sure to enter your Qualtrics IDs.
